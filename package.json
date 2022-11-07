@@ -1,0 +1,17 @@
+{
+  "name": "react-hooks-reco",
+  "version": "1.0.0",
+  "description": "Una recopilación de los hooks personalizados mas usados",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maurilozz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6" },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
+  }
+}
