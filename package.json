@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-reco",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Una recopilación de los hooks personalizados mas usados",
   "main": "src/index.js",
   "scripts": {
@@ -9,11 +9,13 @@
   "author": "maurilozz",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6"
+    "react": "18.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
   },
+  "dependencies": {},
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
+    "react": "^18.0.0"
   },
   "repository": {
     "type": "git",

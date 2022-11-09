@@ -21,16 +21,16 @@ A continuación veras la funciones que contiene este paquete
 useForm requiere un parámetro inicial con el valor de un objeto con los nombres de los formularios ejemplo: ` useForm( {formname:""} )`
 
 Este hook devolverá 2 estados.,
-**formState**: Será el estado del formulario.
-**handleForm**: Sera el controlador.
+**1., formState**: Será el estado del formulario.
+**2., handleForm**: Sera el controlador.
 
-ejemplo: `const {formState, handleForm} = useForm( {formname:""} )`
+ejemplo: `const [formState, handleForm] = useForm( {formname:""} )`
 
 Ejemplo de uso:
 
 ```jsx
 function app() {
-  const { formState, handleForm } = useForm({ formname: "" });
+  const [formState, handleForm] = useForm({ formname: "" });
   const { formname } = formState;
 
   return (
